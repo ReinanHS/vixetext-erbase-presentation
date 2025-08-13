@@ -42,7 +42,7 @@ jobs:
           LANG: "pt_BR.UTF-8"
 
       - name: Archive marp artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: dist-marp
           path: dist-slide
@@ -87,7 +87,7 @@ jobs:
           sudo sed -i "s|location.href = 'https://ReinanHS.github.io/marp-erbase-presentation/assets/files/slide.pdf'|location.href = 'https://reinanhs.github.io/marp-erbase-presentation/slide'|" build/index.html
       
       - name: Archive limarka artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: build-page
           path: build
