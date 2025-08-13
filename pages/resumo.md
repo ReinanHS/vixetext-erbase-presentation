@@ -1,3 +1,13 @@
 # Resumo
 
-Este artigo apresenta uma abordagem para elaboração de materiais didáticos simples, flexível e multi formatos através da utilização do Marp, uma ferramenta de criação de apresentações em Markdown, aliada a técnicas de Integração Contínua (CI) e Entrega Contínua (CD). A integração dessas tecnologias automatizou o processo de criação, atualização e distribuição de conteúdos educacionais em formato de slides. Para tanto, foi desenvolvido um tema customizado seguindo os padrões visuais do Instituto Federal de Sergipe (IFS). Este fluxo de trabalho otimizou o tempo dos autores, padronizou e melhorou o visual e a estrutura dos slides, favorecendo a criação de conteúdos educacionais de qualidade para o processo de ensino e aprendizado.
+O minicurso tem como objetivo apresentar aos estudantes uma ferramenta prática e eficiente para a elaboração de documentos acadêmicos. O **VixeText** integra **Markdown**, **Limarka** e técnicas modernas de **CI/CD** para simplificar o processo de escrita, formatação e geração automática de trabalhos no padrão acadêmico conforme as normas da **ABNT**.
+
+Durante o minicurso, os participantes irão aprender, de forma prática e guiada, como utilizar o VixeText para:
+
+* Criar e estruturar documentos acadêmicos de maneira ágil;
+* Elaborar apresentações no formato Marp;
+* Gerenciar referências bibliográficas de forma automatizada;
+* Inserir figuras, tabelas e elementos visuais com posicionamento e legendas adequadas;
+* Compilar documentos finais em **PDF** já formatados segundo as normas técnicas da ABNT.
+
+Além disso, serão apresentadas boas práticas de organização de arquivos, automação de tarefas e integração com repositórios GitHub, permitindo que os estudantes aproveitem ao máximo o potencial da ferramenta e tornem o processo de produção acadêmica mais simples, rápido e padronizado.

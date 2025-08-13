@@ -9,160 +9,168 @@ math: katex
 
 ![top-right](https://main--ornate-begonia-abfe87.netlify.app/assets/logo.svg)
 
-## Elaboração de materiais didáticos com Marp e CI/CD
+## Como criar seu TCC com o VixeText: Automatizando trabalhos acadêmicos com Markdown
 
 **AUTORES**: Reinan Gabriel Dos Santos Souza
-Prof. MSc. Francisco Rodrigues Santos
-Prof. Dr. Gilson Pereira Dos Santos Junior
 
-<!-- _footer: '07 de novembro de 2024' -->
+<!-- _footer: '13 de agosto de 2025' -->
 
 ---
 
-![bg left:40% 80%](https://www.qrtag.net/api/qr_1280.png?url=https://reinanhs.github.io/marp-erbase-presentation/)
+![bg left:40% 80%](https://www.qrtag.net/api/qr_1280.png?url=https://github.com/ReinanHS/vixetext-erbase-presentation)
 
 **Material utilizado na apresentação**
 
 Todos os materiais relacionados à apresentação estão disponíveis digitalmente no meu repositório do **GitHub**. Para acessar esses recursos, basta escanear o **QR Code** na imagem ao lado.
 
-> https://github.com/ReinanHS/marp-erbase-presentation
+> https://github.com/reinanhs/vixetext-erbase-presentation
+
+---
+
+![bg left:40% 80%](https://avatars.githubusercontent.com/u/28494067?v=4)
+
+**Reinan Gabriel dos Santos Souza**
+
+Formado em **Sistemas de Informação** pelo **Instituto Federal de Sergipe (IFS)** em 2024, sou um profissional apaixonado por tecnologia.
+
+Atualmente atuo como **Engenheiro DevOps Pleno** na **MOVA & Serasa Experian**.
+
+🔗 [linktr.ee/reinanhs](https://linktr.ee/reinanhs)
 
 ---
 
 <!-- _header: Sumário -->
 
-- Problema
-- Objetivo geral
-- Solução
-- Resultados
-- Conclusão
-- Trabalhos futuros
-- Principais referências
+* Introdução ao VixeText
+* Criação e estrutura de projetos acadêmicos
+* Inserção de elementos textuais, pré-textuais e pós-textuais
+* Referências bibliográficas e citações
+* Formatos de referência e geração de PDFs
+* Automação com CI/CD (GitHub Actions)
+* Apresentações acadêmicas com Marp
 
 ---
 
-<!-- _header: PROBLEMA -->
+<!-- _header: Introdução ao VixeText -->
 
-1. **Carência de automatização** na elaboração de materiais didáticos;
-2. **Dificuldade em manter** e atualizar materiais didáticos;
-3. **Falta de padronização** nos materiais didáticos;
-4. **Complexidade** na utilização de códigos e fórmulas matemáticas.
+A concepção do **VixeText** teve início em **17 de setembro de 2022**, durante o período da minha graduação.
 
----
+![center h:300](./img/exemplo-do-primeiro-commit.png)
 
-<!-- _header: OBJETIVO GERAL -->
-
-Apresentar uma abordagem para a elaboração de materiais didáticos **simples**, **flexíveis** e em **múltiplos formatos** utilizando o Marp ¹.
-
-![w:500 center](https://raw.githubusercontent.com/ReinanHS/marp-erbase-presentation/refs/heads/master/img/ilustracao_objetivos.png)
-
-<!-- <c>Fonte: Autor, (2024).</c> -->
-
-> ¹ https://marp.app/
+Naquela ocasião, enfrentava recorrentes limitações ao utilizar ferramentas amplamente adotadas, como o **Microsoft Word** e o **Overleaf**. 
 
 ---
 
-<!-- _class: image_with_font -->
-<!-- _header: SOLUÇÃO  -->
+<!-- _header: Problemas principais identificados naquele período -->
 
-![w:1000 center](https://gitlab.com/reinanhs/repo-slide-presentation/-/raw/main/imagens/tcc/exemplo-do-marp-slide.png)
-
-Fonte: Autor, (2024).
-
----
-
-<!-- _class: image_with_font -->
-<!-- _header: EXEMPLO DE ESCRITA DO SLIDE EM MARKDOWN  -->
-
-![w:1200 center](https://raw.githubusercontent.com/ReinanHS/marp-erbase-presentation/refs/heads/master/img/exemplo-vetor.png)
-
-Fonte: Autor, (2024).
+1. **Complexidade** na formatação de trabalhos acadêmicos;
+1. **Limitações** nas ferramentas de escrita acadêmica;
+1. **Dificuldades** na criação de apresentações acadêmicas;
+1. **Falta de integração** entre ferramentas de escrita e apresentação;
+1. **Carência** de automatização no processo de elaboração de trabalhos acadêmicos.
 
 ---
 
-<!-- _header: EXEMPLO DE BLOCO DE CÓDIGO  -->
+Esse cenário motivou a busca por uma alternativa que possibilitasse a **escrita acadêmica** por meio do **Markdown**.
 
-A documentação oficial do **Marp** ² suporta blocos de código em várias linguagens. Veja o exemplo abaixo:
-
-```python
-idade = input('qual a sua idade? ')
-print ('%d anos' %idade)
-
-numeros = (1,2,3,4,5,6)
-
-for i in numeros:
-    print(i)
-```
-
-> ² https://github.com/marp-team/marp-core?tab=readme-ov-file#auto-shrink-the-block
+![center h:450](./img/exemplo-do-uso-markdown.png)
 
 ---
 
-<!-- _header: EXPRESSÕES MATEMÁTICAS  -->
+<!-- _header: Gráfico comparando a curva de aprendizado entre Markdown e LaTeX -->
 
-Segundo Arino (2022), o Marp permite escolher entre o **MathJax** e o **KaTeX**. Veja o exemplo abaixo:
+![center h:400](./img/grafico-markdown-latex.png)
 
-```tex
-\begin{align*}
-S(\omega) 
-&= \frac{\alpha g^2}{\omega^5} \exp\left[ -0.74 \left\{ \frac{\omega U_\omega}{19.5 g} \right\}^{\!-4} \right] \\
-&= \frac{\alpha g^2}{\omega^5} \exp \left[ -0.74 \left\{ \frac{\omega U_\omega}{19.5 g} \right\}^{-4} \right]
-\end{align*}
-```
-
-$$
-\begin{align*}
-S(\omega) 
-&= \frac{\alpha g^2}{\omega^5} \exp\left[ -0.74 \left\{ \frac{\omega U_\omega}{19.5 g} \right\}^{\!-4} \right] \\
-&= \frac{\alpha g^2}{\omega^5} \exp \left[ -0.74 \left\{ \frac{\omega U_\omega}{19.5 g} \right\}^{-4} \right]
-\end{align*}
-$$
-
-> https://julien-arino.github.io/blog/2022/Marp-for-slides/
-
----
-<!-- _header: PIPELINE PARA AUTOMATIZAR A COMPILAÇÃO E PUBLICAÇÃO -->
-
-Veja abaixo o exemplo do fluxo de execução da pipeline ³:
-
-![w:900 center](https://gitlab.com/reinanhs/repo-slide-presentation/-/raw/main/imagens/tcc/github-action-pipeline.png)
-
-<!-- <c>Fonte: Autor, (2024).</c> -->
-
-> ³ https://github.com/ReinanHS/limarka-template-tcc/actions/runs/10801707397
-
----
-<!-- _class: image_with_font -->
-<!-- _header: RESULTADO DA PÁGINA DE PUBLICAÇÃO GERADO PELO CI/CD -->
-
-![w:650 center](https://gitlab.com/reinanhs/repo-slide-presentation/-/raw/main/imagens/tcc/limarka-page.png)
-
-Fonte: Autor, (2024).
-
-> Link para a página: https://reinanhs.github.io/limarka-template-tcc/
-> Link para o Limarka Page: https://github.com/ReinanHS/limarka-render-html
+- Markdown: A curva mostra uma ascensão rápida na proficiência com poucas horas de estudo. Isso reflete sua simplicidade e sintaxe intuitiva.
 
 ---
 
-<!-- _header: CONCLUSÃO -->
+<!-- _header: Exemplo de código em LaTeX -->
 
-- Facilidade e automação na criação de materiais didáticos.
-- Otimização do tempo com automação de publicação e compilação.
-- Acesso simplificado ao conteúdo por meio de uma página web.
-- Flexibilidade na distribuição em múltiplos formatos.
+![center h:550](./img/exemplo-de-codigo-latex.png)
 
 ---
 
-<!-- _header: TRABALHOS FUTUROS -->
+<!-- _header: Exemplo de código em Markdown -->
 
-- Ampliar a acessibilidade dos materiais didáticos gerados com Marp, focando em necessidades especiais.
-- Avaliar o impacto do uso de Marp e CI/CD na melhoria do engajamento dos alunos.
-- Realizar a implementação de novas validações no CI.
+![center h:550](./img/exemplo-do-uso-markdown-2.png)
 
 ---
 
-<!-- _header: PRINCIPAIS REFERÊNCIAS -->
+<!-- _header: Do conceito à ferramenta -->
 
-**ARINO, Julien (2022)**. Marp for slides. Disponível em: https://julien-arino.github.io/blog/2022/Marp-for-slides/. Acesso em: 30 out. 2024.
-**Marp (2024)**. Markdown presentation ecosystem. Disponível em: https://marp.app/. Acessado em: 23 out. 2024.
-**Tenen, D. and Wythoff, G. (2022)**. Autoria sustentável em texto simples usando pandoc e markdown. The Programming Historian em Português.
+A partir dessa motivação, nasceu o **VixeText** 
+
+Ele é uma solução que integra **Markdown**, **Limarka** e **processos automatizados** para simplificar a produção de trabalhos acadêmicos.
+
+O objetivo central foi criar um ambiente **simples**, **padronizado** e **eficiente**, permitindo que estudantes e pesquisadores concentrem-se no conteúdo, sem se preocupar com formatação complexa.
+
+---
+
+<!-- _header: Ilustração da integração -->
+
+![center h:600](./img/ilustracao-da-integracao.png)
+
+---
+
+<!-- _header: Características principais do VixeText -->
+
+- **Escrita em Markdown**: Sintaxe simples e legível, facilitando a criação de conteúdo.
+
+![center h:500](./img/exemplo-de-uso-vscode.png)
+
+---
+
+<!-- _header: Características principais do VixeText -->
+
+- **Compatibilidade com normas ABNT**: Geração automática de documentos no formato exigido.
+- **Gerenciamento de referências**: Uso de BibLaTeX para controle bibliográfico.
+
+![center h:400](./img/exemplo-de-caracteristicas.png)
+
+---
+
+<!-- _header: Características principais do VixeText -->
+
+- **Automação com CI/CD**: Compilação e publicação automáticas a partir do repositório.
+
+![center h:450](./img/exemplo-de-automacao-ci-cd.png)
+
+---
+
+<!-- _header: Características principais do VixeText -->
+
+- **Suporte a apresentações**: Integração com Marp para criação de slides acadêmicos.
+
+![center h:450](./img/exemplo-vetor.png)
+
+---
+
+<!-- _header: Benefícios para o usuário -->
+
+O **VixeText** elimina barreiras comuns no processo de escrita acadêmica:
+
+1. **Padronização** de formatação sem esforço manual.
+2. **Agilidade** na criação e atualização de documentos.
+3. **Integração** de texto, figuras, tabelas e referências de forma automatizada.
+4. **Acessibilidade** do conteúdo em diferentes formatos, como PDF e apresentações.
+
+> Com o VixeText, o foco deixa de ser “como formatar” e passa a ser “o que escrever”.
+
+---
+
+<!-- _header: Benefícios para o usuário -->
+
+![center h:800](./img/exemplo-de-controle-de-versao.png)
+
+---
+
+<!-- _header: Benefícios para o usuário -->
+
+![center h:500](./img/exemplo-gerenciamento-das-atividades-pelo-kanban.png)
+
+---
+
+<!-- _header: Comparação de ferramentas -->
+
+![center](./img/markdown-image-779812.png)
