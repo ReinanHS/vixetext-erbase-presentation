@@ -7,7 +7,7 @@ math: katex
 
 <!-- _class: lead -->
 
-![top-right](https://main--ornate-begonia-abfe87.netlify.app/assets/logo.svg)
+![top-right](https://i.imgur.com/aG9Btbp.png)
 
 ## Como criar seu TCC com o VixeText: Automatizando trabalhos acadêmicos com Markdown
 
@@ -41,13 +41,13 @@ Atualmente atuo como **Engenheiro DevOps Pleno** na **MOVA & Serasa Experian**.
 
 <!-- _header: Sumário -->
 
-* Introdução ao VixeText
-* Criação e estrutura de projetos acadêmicos
-* Inserção de elementos textuais, pré-textuais e pós-textuais
-* Referências bibliográficas e citações
-* Formatos de referência e geração de PDFs
-* Automação com CI/CD (GitHub Actions)
-* Apresentações acadêmicas com Marp
+- Introdução ao VixeText
+- Criação e estrutura de projetos acadêmicos
+- Inserção de elementos textuais, pré-textuais e pós-textuais
+- Referências bibliográficas e citações
+- Formatos de referência e geração de PDFs
+- Automação com CI/CD (GitHub Actions)
+- Apresentações acadêmicas com Marp
 
 ---
 
@@ -55,7 +55,7 @@ Atualmente atuo como **Engenheiro DevOps Pleno** na **MOVA & Serasa Experian**.
 
 A concepção do **VixeText** teve início em **17 de setembro de 2022**, durante o período da minha graduação.
 
-![center h:300](./img/exemplo-do-primeiro-commit.png)
+![center h:300](https://raw.githubusercontent.com/ReinanHS/vixetext-erbase-presentation/refs/heads/master/img/exemplo-do-primeiro-commit.png)
 
 Naquela ocasião, enfrentava recorrentes limitações ao utilizar ferramentas amplamente adotadas, como o **Microsoft Word** e o **Overleaf**. 
 
@@ -73,13 +73,13 @@ Naquela ocasião, enfrentava recorrentes limitações ao utilizar ferramentas am
 
 Esse cenário motivou a busca por uma alternativa que possibilitasse a **escrita acadêmica** por meio do **Markdown**.
 
-![center h:450](./img/exemplo-do-uso-markdown.png)
+![center h:450](https://raw.githubusercontent.com/ReinanHS/vixetext-erbase-presentation/refs/heads/master/img/exemplo-do-uso-markdown.png)
 
 ---
 
 <!-- _header: Gráfico comparando a curva de aprendizado entre Markdown e LaTeX -->
 
-![center h:400](./img/grafico-markdown-latex.png)
+![center h:400](https://raw.githubusercontent.com/ReinanHS/vixetext-erbase-presentation/refs/heads/master/img/grafico-markdown-latex.png)
 
 - Markdown: A curva mostra uma ascensão rápida na proficiência com poucas horas de estudo. Isso reflete sua simplicidade e sintaxe intuitiva.
 
@@ -87,13 +87,13 @@ Esse cenário motivou a busca por uma alternativa que possibilitasse a **escrita
 
 <!-- _header: Exemplo de código em LaTeX -->
 
-![center h:550](./img/exemplo-de-codigo-latex.png)
+![center h:550](https://raw.githubusercontent.com/ReinanHS/vixetext-erbase-presentation/refs/heads/master/img/exemplo-de-codigo-latex.png)
 
 ---
 
 <!-- _header: Exemplo de código em Markdown -->
 
-![center h:550](./img/exemplo-do-uso-markdown-2.png)
+![center h:550](https://raw.githubusercontent.com/ReinanHS/vixetext-erbase-presentation/refs/heads/master/img/exemplo-do-uso-markdown-2.png)
 
 ---
 
@@ -109,7 +109,7 @@ O objetivo central foi criar um ambiente **simples**, **padronizado** e **eficie
 
 <!-- _header: Ilustração da integração -->
 
-![center h:600](./img/ilustracao-da-integracao.png)
+![center h:600](https://raw.githubusercontent.com/ReinanHS/vixetext-erbase-presentation/refs/heads/master/img/ilustracao-da-integracao.png)
 
 ---
 
@@ -117,7 +117,7 @@ O objetivo central foi criar um ambiente **simples**, **padronizado** e **eficie
 
 - **Escrita em Markdown**: Sintaxe simples e legível, facilitando a criação de conteúdo.
 
-![center h:500](./img/exemplo-de-uso-vscode.png)
+![center h:500](https://raw.githubusercontent.com/ReinanHS/vixetext-erbase-presentation/refs/heads/master/img/exemplo-de-uso-vscode.png)
 
 ---
 
@@ -126,7 +126,7 @@ O objetivo central foi criar um ambiente **simples**, **padronizado** e **eficie
 - **Compatibilidade com normas ABNT**: Geração automática de documentos no formato exigido.
 - **Gerenciamento de referências**: Uso de BibLaTeX para controle bibliográfico.
 
-![center h:400](./img/exemplo-de-caracteristicas.png)
+![center h:400](https://raw.githubusercontent.com/ReinanHS/vixetext-erbase-presentation/refs/heads/master/img/exemplo-de-caracteristicas.png)
 
 ---
 
@@ -134,7 +134,7 @@ O objetivo central foi criar um ambiente **simples**, **padronizado** e **eficie
 
 - **Automação com CI/CD**: Compilação e publicação automáticas a partir do repositório.
 
-![center h:450](./img/exemplo-de-automacao-ci-cd.png)
+![center h:450](https://raw.githubusercontent.com/ReinanHS/vixetext-erbase-presentation/refs/heads/master/img/exemplo-de-automacao-ci-cd.png)
 
 ---
 
@@ -142,7 +142,7 @@ O objetivo central foi criar um ambiente **simples**, **padronizado** e **eficie
 
 - **Suporte a apresentações**: Integração com Marp para criação de slides acadêmicos.
 
-![center h:450](./img/exemplo-vetor.png)
+![center h:450](https://raw.githubusercontent.com/ReinanHS/vixetext-erbase-presentation/refs/heads/master/img/exemplo-vetor.png)
 
 ---
 
@@ -161,16 +161,109 @@ O **VixeText** elimina barreiras comuns no processo de escrita acadêmica:
 
 <!-- _header: Benefícios para o usuário -->
 
-![center h:800](./img/exemplo-de-controle-de-versao.png)
+![center h:800](https://raw.githubusercontent.com/ReinanHS/vixetext-erbase-presentation/refs/heads/master/img/exemplo-de-controle-de-versao.png)
 
 ---
 
 <!-- _header: Benefícios para o usuário -->
 
-![center h:500](./img/exemplo-gerenciamento-das-atividades-pelo-kanban.png)
+![center h:500](https://raw.githubusercontent.com/ReinanHS/vixetext-erbase-presentation/refs/heads/master/img/exemplo-gerenciamento-das-atividades-pelo-kanban.png)
 
 ---
 
 <!-- _header: Comparação de ferramentas -->
 
-![center](./img/markdown-image-779812.png)
+![center](https://raw.githubusercontent.com/ReinanHS/vixetext-erbase-presentation/refs/heads/master/img/markdown-image-779812.png)
+
+---
+
+<!-- _header: Exemplos práticos com o VixeText -->
+
+O **VixeText** demonstra sua versatilidade na produção, formatação e publicação de:
+
+- Documentos acadêmicos
+- Apresentações de slides
+- Páginas web  
+
+> O conteúdo é escrito em **Markdown** e transformado automaticamente em produtos finais padronizados e prontos para uso.
+
+---
+
+<!-- _header: Exemplo de TCC -->
+
+O VixeText possibilita criar **Trabalhos de Conclusão de Curso (TCC)** totalmente formatados conforme normas acadêmicas da ABNT, prontos para submissão ou impressão.
+
+Características:
+
+- Estrutura padronizada de capa, folha de rosto, sumário e referências.
+- Formatação automática de títulos, subtítulos, citações e legendas.
+- Listas automáticas de figuras, tabelas e abreviaturas.
+
+---
+
+<!-- _header: Exemplos de TCC -->
+
+- [Exemplo básico de TCC](https://vixetext.github.io/vixetext-template/assets/files/titulo-do-trabalho.pdf)
+- [TCC por Reinan Souza](https://reinanhs.github.io/tcc-bsi-ifs/assets/files/automatizacao-e-padronizacao-da-escrita-academica-com-limarka-e-marp-um-estudo-de-caso-para-o-ifs.pdf)
+- [TCC por José Santana](https://apolos7.github.io/sentilytics-tcc/assets/files/sentilytics-analise-automatizada-de-sentimentos-em-redes-sociais.pdf)
+
+---
+
+<!-- _header: Apresentações de slides -->
+
+O VixeText também converte o conteúdo do TCC em **apresentações HTML** usando o **Marp**.
+
+Vantagens:
+
+- Design limpo e responsivo
+- Compatibilidade com navegadores modernos
+- Suporte a imagens, gráficos e código
+- Transições suaves
+
+> **Dica:** O conteúdo vem do próprio TCC, garantindo consistência.
+
+---
+
+<!-- _header: Exemplos de slides -->
+
+- [Slides básicos](https://vixetext.github.io/vixetext-template/slide)
+- [Slides por Reinan Souza](https://reinanhs.github.io/tcc-bsi-ifs/slide)
+- [Slides por José Santana](https://apolos7.github.io/sentilytics-tcc/slide)
+
+---
+
+<!-- _header: Página web do trabalho -->
+
+O VixeText gera uma **página web centralizada** com todos os materiais acadêmicos.
+
+Funcionalidades:
+
+- Acesso rápido a PDF, slides e anexos
+- Organização por seções
+- Layout responsivo
+
+> **Benefício:** Ideal para publicação e compartilhamento com banca e comunidade.
+
+---
+
+<!-- _header: Exemplos de páginas web -->
+
+- [Página básica](https://vixetext.github.io/vixetext-template/)
+- [Página por Reinan Souza](https://reinanhs.github.io/tcc-bsi-ifs/)
+- [Página por José Santana](https://apolos7.github.io/sentilytics-tcc/)
+
+---
+
+<!-- _header: Considerações -->
+
+O **VixeText** automatiza todo o fluxo acadêmico, gerando simultaneamente:
+
+- 📄 **Documento final** (PDF)
+- 📊 **Apresentação** (slides)
+- 🌐 **Repositório online** (página web)
+
+Benefícios:
+
+- Elimina retrabalho de formatação
+- Garante conformidade com normas
+- Otimiza tempo de estudantes e orientadores
