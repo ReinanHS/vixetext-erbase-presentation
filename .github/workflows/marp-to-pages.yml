@@ -12,7 +12,7 @@ jobs:
       contents: write
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Ensure build dir exists
         run: mkdir -p dist-slide
@@ -53,10 +53,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Download slide artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: dist-marp
 
@@ -84,8 +84,8 @@ jobs:
         run: |
           ls -al build
           sudo sed -i '0,/Visualizar PDF/s//Visualizar Slide/' build/index.html
-          sudo sed -i "s|location.href = 'https://ReinanHS.github.io/marp-erbase-presentation/assets/files/slide.pdf'|location.href = 'https://reinanhs.github.io/marp-erbase-presentation/slide'|" build/index.html
-      
+          sudo sed -i "s|location.href = 'https://ReinanHS.github.io/vixetext-erbase-presentation/assets/files/slide.pdf'|location.href = 'https://reinanhs.github.io/vixetext-erbase-presentation/slide'|" build/index.html
+
       - name: Archive limarka artifacts
         uses: actions/upload-artifact@v4
         with:
@@ -98,9 +98,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Download build
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: build-page
           path: build
