@@ -267,3 +267,115 @@ Benefícios:
 - Elimina retrabalho de formatação
 - Garante conformidade com normas
 - Otimiza tempo de estudantes e orientadores
+
+---
+
+<!-- _header: Guia de início rápido -->
+
+Este guia ajuda **novos usuários** a configurar e utilizar o **VixeText** de forma ágil e eficiente.
+
+Dois modos de uso:
+
+1. **Navegador** (Playground) — sem instalação local.
+1. **Navegador** (GitHub Codespaces) — sem instalação local.
+2. **Linha de comando (CLI)** — para maior controle.
+
+> https://vixetext.com/comecando/guia-de-inicio-rapido
+
+---
+
+<!-- _header: Utilizando no navegador (Playground) -->
+
+Para começar, basta acessar o site do **vixetext** sem necessidade de cadastro.
+
+Vantagens:
+
+- Nenhuma instalação local necessária.
+- Ideal para testes rápidos.
+
+Desvantagens:
+
+- Este é um ambiente básico destinado apenas para testes por iniciantes.
+
+---
+
+Acesse o site da ferramenta Vixetext. Ao entrar no portal, selecione o botão de **playground**.
+
+Consulte o exemplo ilustrado na imagem abaixo:
+
+![center h:400](https://raw.githubusercontent.com/ReinanHS/vixetext-erbase-presentation/refs/heads/master/img/exemplo-do-playground.png)
+
+> https://vixetext.com/
+
+---
+
+<!-- _header: Utilizando no navegador (GitHub Codespaces) -->
+
+A forma mais simples de começar: **GitHub Codespaces**.
+
+Vantagens:
+
+- Ambiente virtual pré-configurado.
+- Nenhuma instalação local necessária.
+- Ideal para testes rápidos.
+
+---
+
+**Passos:**
+1. Clique no botão [Open in GitHub Codespaces](https://codespaces.new/vixetext/vixetext-template?machine=standardLinux2gb).
+2. Selecione **"New Codespace"**.
+3. Aguarde a configuração automática.
+4. Ambiente pronto para edição e compilação.
+
+> **Ideal para iniciantes**
+
+---
+
+<!-- _header: Utilizando via linha de comando (CLI) -->
+
+Opção para usuários que preferem **ambiente local** ou **maior controle**.
+
+Pré-requisitos:
+- **Docker** instalado e em execução.
+- Conhecimento básico de terminal.
+
+**Passo 1:** Clonar o repositório
+
+```sh
+git clone https://github.com/vixetext/vixetext-template.git
+cd vixetext-template
+````
+
+---
+
+<!-- _header: Utilizando via linha de comando (CLI) -->
+
+**Passo 2:** Executar compilação
+
+```sh
+docker run --rm -it \
+    -v "$(pwd)":/usr/src/trabalho \
+    --entrypoint="/bin/bash" \
+    reinanhs/limarka-help:1.0.0 \
+    -c "limarka-help"
+```
+
+Esse comando:
+
+* Monta o diretório no contêiner Docker.
+* Processa o conteúdo em Markdown.
+* Gera automaticamente o **PDF final** no diretório do projeto.
+
+---
+
+<!-- _header: Próximos passos -->
+
+Após a configuração inicial, você pode:
+
+* Editar arquivos `.md` com seu conteúdo.
+* Ajustar `configuracao.yaml` (título, autor, orientador etc.).
+* Adicionar referências com **BibTeX**.
+* Criar apresentações com **Marp**.
+* Publicar como página web.
+
+📚 Mais detalhes: [Documentação completa](/configuracao-do-ambiente/criacao-do-repositorio)
