@@ -258,9 +258,9 @@ Funcionalidades:
 
 O **VixeText** automatiza todo o fluxo acadêmico, gerando simultaneamente:
 
-- 📄 **Documento final** (PDF)
-- 📊 **Apresentação** (slides)
-- 🌐 **Repositório online** (página web)
+- **Documento final** (PDF)
+- **Apresentação** (slides)
+- **Repositório online** (página web)
 
 Benefícios:
 
@@ -378,4 +378,65 @@ Após a configuração inicial, você pode:
 * Criar apresentações com **Marp**.
 * Publicar como página web.
 
-📚 Mais detalhes: [Documentação completa](/configuracao-do-ambiente/criacao-do-repositorio)
+---
+
+<!-- _header: Próximas seções - Modo prático -->
+<!-- _class: lead -->
+
+# 🚀 Próximas seções
+
+As próximas etapas serão **100% práticas**.  
+Para esses casos, **não seguiremos o slide**,  
+mas sim a **[documentação oficial do VixeText](https://vixetext.com/)**.
+
+---
+
+## 📋 Conteúdos práticos
+
+- Criação e estrutura de projetos acadêmicos  
+- Inserção de elementos textuais, pré-textuais e pós-textuais  
+- Referências bibliográficas e citações  
+- Formatos de referência e geração de PDFs  
+- Automação com CI/CD (GitHub Actions)  
+- Apresentações acadêmicas com Marp
+
+---
+
+<!-- _header: Nível de familiaridade -->
+
+Antes de iniciarmos,  
+quero entender como está o nível de conhecimento de vocês  
+sobre as ferramentas que iremos utilizar:
+
+- **Git**
+- **GitHub**
+- **Docker**
+- **LaTeX**
+- **Markdown**
+- **CI/CD** (GitHub Actions)
+
+💬 Quem já usou alguma delas?  
+
+---
+
+<!-- _header: Perguntas e respostas -->
+<!-- _class: lead -->
+
+# ❓ Espaço para dúvidas
+
+Este é o momento para  
+**perguntas, comentários e discussões**.
+
+---
+
+<!-- _class: lead -->
+
+# ✅ Encerramento
+
+Obrigado pela participação! 🙌
+
+📌 Mais informações e documentação completa:  
+[https://vixetext.com/](https://vixetext.com/)  
+
+💬 Em caso de dúvidas futuras, entre em contato.  
+Foi um prazer compartilhar esse conteúdo com vocês!
